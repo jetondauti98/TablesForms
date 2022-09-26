@@ -1,0 +1,49 @@
+#indexbody {
+  background-color: #fff3ff;
+}
+
+#order {
+  text-align: center;
+}
+
+#orderbutton {
+  text-align: center;
+}
+
+#ordersection {
+  color: tomato;
+}
+
+#formbody {
+  background-color: #fff3ff;
+}
+
+#informationsection {
+  color: tomato;
+}
+
+iframe {
+  padding-left: 700px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#leftsection {
+  padding-right: 150px;
+}
+
+#rightsection {
+  padding-bottom: 100px;
+}
+
+#iframesection {
+  padding-right: 400px;
+}
+
+#leftorder {
+  padding-left: 500px;
+}
