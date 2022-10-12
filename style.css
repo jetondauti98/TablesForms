@@ -1,5 +1,10 @@
 #indexbody {
-  background-color: hsl(300, 56%, 94%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+#maintable {
+  border: 1.5px solid black;
+  padding: 20px;
 }
 
 #order {
@@ -23,7 +28,10 @@
 }
 
 iframe {
-  padding-left: 700px;
+  padding-left: 400px;
+  padding-right: auto;
+  width: 1000px;
+  height: 600px;
 }
 
 main {
@@ -42,8 +50,106 @@ main {
 
 #iframesection {
   padding-right: 400px;
+  padding-top: 30px;
 }
 
 #leftorder {
   padding-left: 500px;
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+#orderbutton {
+  border: 1px solid rgb(250, 112, 243);
+  border-radius: 20px;
+  padding: 15px;
+  background-color: white;
+  margin-left: 900px;
+  margin-bottom: 400px;
+  text-anchor: rgb(250, 112, 243);
+
+  text-decoration: none;
+  color: initial;
+}
+h4 {
+  text-align: center;
+}
+
+.form1 {
+  margin: 10px auto;
+  max-width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form1 li {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+
+.from1 label {
+  margin: 0 0 3px 0;
+  padding: 0px;
+  display: block;
+  font-weight: bold;
+}
+
+.email-field {
+  width: 98%;
+}
+
+.select-option {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#btn {
+  background-color: #d654ab;
+  border: none;
+  color: #fff3ff;
+  padding: 10px;
+  width: 100px;
+}
+
+fieldset {
+  display: inline-block;
+  border-color: #d654ab;
+}
+
+b {
+  font-size: 15px;
+}
+
+input {
+  border: 1px solid #d654ab;
+  height: auto;
+}
+
+select {
+  border: 1px solid #d654ab;
+}
+
+textarea {
+  border: 1px solid #d654ab;
+  width: 99%;
+  border-radius: 10px;
+}
+
+legend {
+  color: #d654ab;
+  font-size: 25px;
+}
+.information {
+  padding-left: 700px;
+  padding-top: 50px;
+}
+
+.formbody {
+  background-image: url(./images/form-backgroundimage.jpg);
+  background-size: cover;
 }
